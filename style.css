@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background: transparent;
+  overflow: hidden;
+}
+
+#overlay {
+  position: relative;
+  width: 1280px;
+  height: 720px;
+}
+
+#book {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+#writing-area {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  width: 50%;
+  color: black;
+  font-family: 'DeathNoteFont', serif;
+  font-size: 32px;
+  z-index: 2;
+  text-shadow: 2px 2px 5px black;
+}
+
+@font-face {
+  font-family: 'DeathNoteFont';
+  src: url('assets/font.ttf');
+}
